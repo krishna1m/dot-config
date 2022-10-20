@@ -30,6 +30,7 @@ Plug 'pechorin/any-jump.vim'
 Plug 'gcmt/taboo.vim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'scalameta/nvim-metals'
+Plug 'mfussenegger/nvim-dap'
 call plug#end()
 " Then reload init.vim and :PlugInstall to install plugins.
 
