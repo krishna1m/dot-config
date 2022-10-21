@@ -195,8 +195,6 @@ nnoremap <silent><leader>ns :30Sex!<CR>
 nnoremap <silent><leader>p :set paste expandtab<CR> 
 vnoremap <silent><leader>p "_dP
 
-nnoremap <silent><leader>r :source $MYVIMRC<CR>:echom "vim configuration reloaded"<CR>
-
 " structure csv(tabularize) 
 nnoremap <silent><leader>sc :Tabularize /,<CR> 
 " structure json
