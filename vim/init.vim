@@ -162,7 +162,6 @@ nnoremap <silent><C-j> :wincmd j<CR>
 
 " find and list buffers 
 nnoremap <leader>bf :b<Space> 
-nnoremap <leader>bl :buffers<CR> 
 nnoremap <silent><leader>cf :let @*=printf('file:%s:%d', expand('%:p') , line('.'))<CR>
 
 nnoremap <silent><leader>dv :Gvdiffsplit<CR>
