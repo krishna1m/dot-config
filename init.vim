@@ -185,7 +185,7 @@ nnoremap <silent><leader>gl :GV<CR>
 nnoremap <silent><leader>gf :GV!<CR> 
 nnoremap <silent><leader>gp :G push<CR> 
 " save and add to staging area 
-nnoremap <silent><leader>gw :Gwrite<CR>
+nnoremap <silent><leader>ga :Gwrite<CR>
 
 " opens netrw to the right in the dir where you launch vim from 
 nnoremap <silent><leader>nl :30Lex!<CR> 
@@ -200,6 +200,8 @@ nnoremap <silent><leader>r :source $MYVIMRC<CR>:echom "vim configuration reloade
 
 " structure csv(tabularize) 
 nnoremap <silent><leader>sc :Tabularize /,<CR> 
+" structure json
+nnoremap <silent><leader>sj :%!jq .<CR> 
 " structure by replacing tabs by 2 spaces 
 nnoremap <silent><leader>st :%s/\t/ /g<CR>
 
@@ -219,8 +221,8 @@ nnoremap <leader>tr :TabooRename<Space>
 " sends the current pane into a different tab maintaining the pane in the current tab 
 " <C-w>T does the same thing but does not maintain the pane in the current tab 
 nnoremap <silent>ts :tab sp<CR> 
-nmap <silent><S-Tab> :tabprev<CR> 
-nmap <silent><Tab> :tabnext<CR>
+nmap <silent>H :tabprev<CR> 
+nmap <silent>L :tabnext<CR>
 
 " Reorient windows between vertical and horizontal 
 nnoremap <silent>tv <C-w>t<C-w>H 
