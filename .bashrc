@@ -128,6 +128,8 @@ export LESS=-RiXsj5Q
 export EDITOR=nvim
 export EMACS_HOME=~/.emacs.d/bin
 export PATH=$PATH:$EMACS_HOME
+export NVIM_HOME=~/Downloads/installed/nvim-linux64/bin
+export PATH=$PATH:$NVIM_HOME
 
 
 ## FUNCTIONS
