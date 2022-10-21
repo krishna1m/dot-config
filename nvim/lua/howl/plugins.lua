@@ -50,6 +50,9 @@ return require('packer').startup(function(use)
     },
   })
 
+  use {'kevinhwang91/nvim-bqf', ft = 'qf'}
+  use {'nvim-treesitter/nvim-treesitter'}
+
   -- Automatically set up your config after cloning packer.vim
   -- Put this at the end of all plugins
   if PACKER_BOOTSTRAP then
