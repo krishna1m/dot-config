@@ -21,16 +21,12 @@ Plug 'junegunn/fzf.vim'
 Plug 'dhruvasagar/vim-dotoo'
 Plug 'easymotion/vim-easymotion'
 Plug 'mbbill/undotree'
-Plug 'msanders/snipmate.vim'
 Plug 'Yggdroot/indentLine'
 Plug 'godlygeek/tabular'
 Plug 'dhruvasagar/vim-table-mode'
 Plug 'bogado/file-line'
 Plug 'pechorin/any-jump.vim'
 Plug 'gcmt/taboo.vim'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'scalameta/nvim-metals'
-Plug 'mfussenegger/nvim-dap'
 call plug#end()
 " Then reload init.vim and :PlugInstall to install plugins.
 
