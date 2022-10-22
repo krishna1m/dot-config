@@ -33,7 +33,9 @@ call plug#end()
 
 " COLORSCHEMES 
 " colorscheme Papercolor 
-colorscheme gruvbox 
+" colorscheme gruvbox 
+" colorscheme gruvbox 
+colorscheme Atelier_SavannaDark
 " colorscheme flattened_dark 
 " colorscheme solarized 
 set bg=dark 
