@@ -50,6 +50,10 @@ return require('packer').startup(function(use)
     },
   })
 
+  use {
+    "windwp/nvim-autopairs",
+    config = function() require("nvim-autopairs").setup {} end
+  }
   use {'kevinhwang91/nvim-bqf', ft = 'qf'}
   use {'nvim-treesitter/nvim-treesitter'}
 
