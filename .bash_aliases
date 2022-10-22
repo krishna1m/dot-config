@@ -7,4 +7,3 @@ alias rd='less -NS'
 alias grep='grep --color=auto'
 
 alias v='nvim'
-alias e='emacs &'
