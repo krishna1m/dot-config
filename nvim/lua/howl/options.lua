@@ -15,6 +15,16 @@ end
 vim.opt_global.completeopt = { "menuone", "noinsert", "noselect" }
 vim.opt_global.shortmess:remove("F")
 
+-- Harpoon mappings
+map("n", "<leader>hm", [[<cmd>lua require("harpoon.mark").add_file()<CR>]])
+map("n", "<leader>ht", [[<cmd>lua require("harpoon.ui").toggle_quick_menu()<CR>]])
+map("n", "<leader>hn", [[<cmd>lua require("harpoon.ui").nav_next()<CR>]]) -- navigates to next mark
+map("n", "<leader>hp", [[<cmd>lua require("harpoon.ui").nav_prev()<CR>]]) -- navigates to previous mark
+map("n", "<leader>hh", [[<cmd>lua require("harpoon.ui").nav_file(1)<CR>]])
+map("n", "<leader>hj", [[<cmd>lua require("harpoon.ui").nav_file(2)<CR>]])
+map("n", "<leader>hk", [[<cmd>lua require("harpoon.ui").nav_file(3)<CR>]])
+map("n", "<leader>hl", [[<cmd>lua require("harpoon.ui").nav_file(4)<CR>]])
+
 -- LSP mappings
 map("n", "gD", "<cmd>lua vim.lsp.buf.definition()<CR>")
 map("n", "K", "<cmd>lua vim.lsp.buf.hover()<CR>")
