@@ -27,6 +27,7 @@ Plug 'dhruvasagar/vim-table-mode'
 Plug 'bogado/file-line'
 Plug 'pechorin/any-jump.vim'
 Plug 'gcmt/taboo.vim'
+Plug 'wellle/context.vim'
 call plug#end()
 " Then reload init.vim and :PlugInstall to install plugins.
 
