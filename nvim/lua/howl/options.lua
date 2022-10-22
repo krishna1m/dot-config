@@ -28,7 +28,7 @@ map("n", "<leader>hl", [[<cmd>lua require("harpoon.ui").nav_file(4)<CR>]])
 -- LSP mappings
 map("n", "gD", "<cmd>lua vim.lsp.buf.definition()<CR>")
 map("n", "K", "<cmd>lua vim.lsp.buf.hover()<CR>")
-map("n", "gi", "<cmd>lua vim.lsp.buf.implementation()<CR>")
+map("n", "gm", "<cmd>lua vim.lsp.buf.implementation()<CR>")
 map("n", "gr", "<cmd>lua vim.lsp.buf.references()<CR>")
 map("n", "gds", "<cmd>lua vim.lsp.buf.document_symbol()<CR>")
 map("n", "gws", "<cmd>lua vim.lsp.buf.workspace_symbol()<CR>")
