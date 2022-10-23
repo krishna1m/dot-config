@@ -138,8 +138,7 @@ config.bind("<Ctrl-x><Ctrl-e>", "open-editor", "insert")
 # }}}
 
 c.statusbar.show = "always"
-c.tabs.show = "multiple"
 
 # fonts
-c.fonts.web.size.default = 20
+c.fonts.web.size.default = 15
 
