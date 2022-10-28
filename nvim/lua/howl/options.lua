@@ -56,7 +56,7 @@ map("n", "<leader>dsi", [[<cmd>lua require"dap".step_into()<CR>]])
 map("n", "<leader>dl", [[<cmd>lua require"dap".run_last()<CR>]])
 
 require('nvim-autopairs').setup({
-  disable_filetype = { "TelescopePrompt" , "vim" },
+  disable_filetype = { "vim" },
 })
 
 local cmp_autopairs = require('nvim-autopairs.completion.cmp')
